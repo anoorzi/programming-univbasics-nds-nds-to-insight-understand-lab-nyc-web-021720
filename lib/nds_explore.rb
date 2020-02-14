@@ -11,7 +11,11 @@ pp nds
 end
 
 def print_first_directors_movie_titles
-
+rows = 0
+while rows < nds.length do
+  puts nds[rows]
+  rows +=1
+end
 
 
 end
