@@ -12,8 +12,8 @@ end
 
 def print_first_directors_movie_titles
 rows = 0
-while rows < $loc.length do
-  puts $loc[rows]
+while rows < $loc[0][:movies].length do
+  puts $loc[0][:movies][rows][:title]
   rows +=1
 end
 
