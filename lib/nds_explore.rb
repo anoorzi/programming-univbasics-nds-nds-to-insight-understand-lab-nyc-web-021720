@@ -12,8 +12,8 @@ end
 
 def print_first_directors_movie_titles
 rows = 0
-while rows < loc.length do
-  puts loc[rows].to_s
+while rows < $loc.length do
+  puts $loc[rows].to_s
   rows +=1
 end
 
